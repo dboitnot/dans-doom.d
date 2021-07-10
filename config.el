@@ -35,7 +35,7 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type "relative")
 
-;;(setq fancy-splash-image (concat doom-private-dir "splash/meditate-orig.png"))
+(setq fancy-splash-image (concat doom-private-dir "splash/meditate-290.png"))
 
 (defun doom-dashboard-draw-ascii-banner-fn ()
   (let* ((banner
