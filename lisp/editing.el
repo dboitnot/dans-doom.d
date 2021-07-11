@@ -17,3 +17,11 @@
   (save-excursion
     (goto-char p)
     (line-end-position)))
+
+;;; Keybindings:
+
+(map! :map smartparens-mode-map
+      :nvie "C->" #'sp-forward-slurp-sexp
+      :nvie "C-<" #'sp-forward-barf-sexp
+      :nvie "C-{" #'sp-backward-slurp-sexp
+      :nvie "C-}" #'sp-backward-barf-sexp)
