@@ -84,3 +84,4 @@
 
 (load! "lisp/editing.el")
 (load! "lisp/iterm2-integration.el")
+(load! "lisp/org.el")
