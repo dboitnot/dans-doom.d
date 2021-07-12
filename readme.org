@@ -13,7 +13,7 @@
 These are my personal Doom Emacs settings along with a few basic extensions.
 
 * Prerequisites
-- *See Also:* [The Doom Emacs Getting Started Guide](https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org)
+- *See Also:* [[https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org][The Doom Emacs Getting Started Guide]]
 
 ** macOS
 
