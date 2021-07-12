@@ -35,4 +35,7 @@
 
   ;; Throw in an extra newline below the point
   (save-excursion (insert "\n")))
-(define-key org-mode-map (kbd "C-c n l") 'org-new-log-entry)
+
+;;(define-key org-mode-map (kbd "C-c n l") 'org-new-log-entry)
+(map! :after evil-org :map evil-org-mode-map
+      :n "C-c n l" #'org-new-log-entry)
