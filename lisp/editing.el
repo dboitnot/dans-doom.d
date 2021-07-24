@@ -18,6 +18,10 @@
     (goto-char p)
     (line-end-position)))
 
+;;; Hooks
+
+(add-hook! clojurescript-mode-map #'paredit-mode)
+
 ;;; Keybindings:
 
 (map! :map smartparens-mode-map
@@ -25,3 +29,6 @@
       :nvie "C-<" #'sp-forward-barf-sexp
       :nvie "C-{" #'sp-backward-slurp-sexp
       :nvie "C-}" #'sp-backward-barf-sexp)
+
+(map! :map paredit-mode-map
+      :nvie ")" #'paredit-close-round)
