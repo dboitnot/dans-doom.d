@@ -86,3 +86,10 @@
 (load! "lisp/editing.el")
 (load! "lisp/iterm2-integration.el")
 (load! "lisp/org.el")
+
+;; Company mode causes hangs in sh-mode so we disable it.
+(defun disable-company ()
+  (interactive)
+  (company-mode 0))
+(add-hook! sh-mode #'disable-company)
+
