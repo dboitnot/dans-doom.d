@@ -50,3 +50,4 @@
 ;(unpin! t)
 
 (package! elpher)
+(package! python-black)
